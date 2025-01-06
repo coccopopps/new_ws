@@ -1,0 +1,19 @@
+[1.156s] Invoking command in '/home/pops/new_ws/src/wheelchair_simv2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pops/new_ws/build/wheelchair_simv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pops/new_ws/install/wheelchair_simv2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheelchair_simv2 build --build-base /home/pops/new_ws/build/wheelchair_simv2/build install --record /home/pops/new_ws/build/wheelchair_simv2/install.log --single-version-externally-managed install_data
+[1.535s] running egg_info
+[1.563s] writing ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/dependency_links.txt
+[1.563s] writing requirements to ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/requires.txt
+[1.563s] writing top-level names to ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/top_level.txt
+[1.623s] reading manifest file '../../build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+[1.624s] writing manifest file '../../build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+[1.624s] running build
+[1.624s] running build_py
+[1.624s] running install
+[1.632s] running install_lib
+[1.662s] running install_data
+[1.662s] running install_egg_info
+[1.691s] removing '/home/pops/new_ws/install/wheelchair_simv2/lib/python3.12/site-packages/wheelchair_simv2-0.0.0-py3.12.egg-info' (and everything under it)
+[1.691s] Copying ../../build/wheelchair_simv2/wheelchair_simv2.egg-info to /home/pops/new_ws/install/wheelchair_simv2/lib/python3.12/site-packages/wheelchair_simv2-0.0.0-py3.12.egg-info
+[1.692s] running install_scripts
+[1.887s] writing list of installed files to '/home/pops/new_ws/build/wheelchair_simv2/install.log'
+[1.930s] Invoked command in '/home/pops/new_ws/src/wheelchair_simv2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pops/new_ws/build/wheelchair_simv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pops/new_ws/install/wheelchair_simv2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheelchair_simv2 build --build-base /home/pops/new_ws/build/wheelchair_simv2/build install --record /home/pops/new_ws/build/wheelchair_simv2/install.log --single-version-externally-managed install_data

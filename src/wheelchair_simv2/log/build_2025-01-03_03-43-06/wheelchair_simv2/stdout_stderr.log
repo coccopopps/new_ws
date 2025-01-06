@@ -1,0 +1,30 @@
+running egg_info
+creating build/wheelchair_simv2/wheelchair_simv2.egg-info
+writing build/wheelchair_simv2/wheelchair_simv2.egg-info/PKG-INFO
+writing dependency_links to build/wheelchair_simv2/wheelchair_simv2.egg-info/dependency_links.txt
+writing requirements to build/wheelchair_simv2/wheelchair_simv2.egg-info/requires.txt
+writing top-level names to build/wheelchair_simv2/wheelchair_simv2.egg-info/top_level.txt
+writing manifest file 'build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+reading manifest file 'build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+writing manifest file 'build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pops/new_ws/src/wheelchair_simv2/build/wheelchair_simv2/build
+creating /home/pops/new_ws/src/wheelchair_simv2/build/wheelchair_simv2/build/lib
+creating /home/pops/new_ws/src/wheelchair_simv2/build/wheelchair_simv2/build/lib/wheelchair_simv2
+copying wheelchair_simv2/__init__.py -> /home/pops/new_ws/src/wheelchair_simv2/build/wheelchair_simv2/build/lib/wheelchair_simv2
+running install
+running install_lib
+creating /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/lib/python3.12/site-packages/wheelchair_simv2
+copying /home/pops/new_ws/src/wheelchair_simv2/build/wheelchair_simv2/build/lib/wheelchair_simv2/__init__.py -> /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/lib/python3.12/site-packages/wheelchair_simv2
+byte-compiling /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/lib/python3.12/site-packages/wheelchair_simv2/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/share/ament_index
+creating /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/share/ament_index/resource_index
+creating /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/share/ament_index/resource_index/packages
+copying resource/wheelchair_simv2 -> /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/share/ament_index/resource_index/packages
+copying package.xml -> /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/share/wheelchair_simv2
+running install_egg_info
+Copying build/wheelchair_simv2/wheelchair_simv2.egg-info to /home/pops/new_ws/src/wheelchair_simv2/install/wheelchair_simv2/lib/python3.12/site-packages/wheelchair_simv2-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/pops/new_ws/src/wheelchair_simv2/build/wheelchair_simv2/install.log'

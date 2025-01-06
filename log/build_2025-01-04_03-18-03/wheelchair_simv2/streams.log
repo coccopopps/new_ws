@@ -1,0 +1,47 @@
+[2.072s] Invoking command in '/home/pops/new_ws/src/wheelchair_simv2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pops/new_ws/build/wheelchair_simv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pops/new_ws/install/wheelchair_simv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheelchair_simv2 build --build-base /home/pops/new_ws/build/wheelchair_simv2/build install --record /home/pops/new_ws/build/wheelchair_simv2/install.log --single-version-externally-managed install_data
+[2.514s] running egg_info
+[2.537s] writing ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/PKG-INFO
+[2.538s] writing dependency_links to ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/dependency_links.txt
+[2.538s] writing requirements to ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/requires.txt
+[2.538s] writing top-level names to ../../build/wheelchair_simv2/wheelchair_simv2.egg-info/top_level.txt
+[2.586s] reading manifest file '../../build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+[2.587s] writing manifest file '../../build/wheelchair_simv2/wheelchair_simv2.egg-info/SOURCES.txt'
+[2.587s] running build
+[2.588s] running build_py
+[2.588s] running install
+[2.597s] running install_lib
+[2.619s] Traceback (most recent call last):
+[2.619s]   File "/home/pops/new_ws/src/wheelchair_simv2/setup.py", line 5, in <module>
+[2.619s]     setup(
+[2.619s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+[2.619s]     return distutils.core.setup(**attrs)
+[2.619s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 185, in setup
+[2.620s]     return run_commands(dist)
+[2.620s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 201, in run_commands
+[2.620s]     dist.run_commands()
+[2.620s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+[2.620s]     self.run_command(cmd)
+[2.620s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+[2.621s]     super().run_command(command)
+[2.621s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command
+[2.621s]     cmd_obj.run()
+[2.621s]   File "/usr/lib/python3/dist-packages/setuptools/command/install.py", line 78, in run
+[2.621s]     return orig.install.run(self)
+[2.622s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/command/install.py", line 708, in run
+[2.622s]     self.run_command(cmd_name)
+[2.622s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py", line 318, in run_command
+[2.622s]     self.distribution.run_command(command)
+[2.622s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+[2.622s]     super().run_command(command)
+[2.622s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 987, in run_command
+[2.623s]     cmd_obj.ensure_finalized()
+[2.623s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py", line 111, in ensure_finalized
+[2.623s]     self.finalize_options()
+[2.623s]   File "/usr/lib/python3/dist-packages/setuptools/command/install_lib.py", line 17, in finalize_options
+[2.623s]     self.set_undefined_options('install',('install_layout','install_layout'))
+[2.623s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py", line 296, in set_undefined_options
+[2.623s]     setattr(self, dst_option, getattr(src_cmd_obj, src_option))
+[2.623s]   File "/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py", line 107, in __getattr__
+[2.623s]     raise AttributeError(attr)
+[2.624s] AttributeError: install_layout. Did you mean: 'install_platlib'?
+[2.650s] Invoked command in '/home/pops/new_ws/src/wheelchair_simv2' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pops/new_ws/build/wheelchair_simv2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pops/new_ws/install/wheelchair_simv2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheelchair_simv2 build --build-base /home/pops/new_ws/build/wheelchair_simv2/build install --record /home/pops/new_ws/build/wheelchair_simv2/install.log --single-version-externally-managed install_data
